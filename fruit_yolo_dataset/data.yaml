@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['apple', 'banana', 'cherry', 'chikkoo', 'grape', 'kiwi', 'mango', 'orange', 'strawberry']
+
+roboflow:
+  workspace: tree3three
+  project: fruit-detection-practice-zcdm1
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tree3three/fruit-detection-practice-zcdm1/dataset/2
